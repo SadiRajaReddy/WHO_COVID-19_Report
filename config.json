@@ -1,0 +1,35 @@
+{
+    "processName": "Extraction of Covid data",
+    "createDirectories": false,
+    "directories": {
+        "Drive":"S:\\BotRun\\IP_Bot1",
+        "UrlPath1":"https://covid19.who.int//",
+        "UrlPath2":"https://www.worldometers.info//coronavirus//",
+        "ResultFilePath": "Output path",
+        "WorkingFilePath": "working path",
+        "CommandPrompt": "C:\\WINDOWS\\system32\\cmd.exe",
+        "ScreenShotFolder": "",
+        "SuccessScreenShotFolder": "",
+        "InputFolderPath": "",
+        "OutputFilePath": "C:\\Users\\"+Environment.UserName+"\\Documents\\Covid Data\\CovidData.xlsx",
+        "OutputFileName": "CovidData.xlsx",
+        "OutputFileSheetName1": "Sheet1",
+        "TeamRecipients": "sadiredddy.raja@conneqtcorp.com",
+	"expressionLanguage": "CSharp"
+    },
+    "Email": {
+        "EmailId": "sadiredddy.raja@conneqtcorp.com",
+        "EmailPassword": "",
+        "OtherRecipients": "",
+        "Recipients": "sadiredddy.raja@conneqtcorp.com"
+    },
+   
+    "EmailContent": {
+        "EmailBody": "Please find the report attached which contains the extracted data from Covid data portal & world Meter portal",
+        "EmailSubject": "Dashboard data",
+        "DeefReciverName": "DVermeulen",
+        "Parameters": {
+        "TCode": ""
+        }
+    }
+   
